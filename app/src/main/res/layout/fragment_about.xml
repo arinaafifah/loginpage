@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="160dp"
+        app:srcCompat="@mipmap/keteganti"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#050505"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Please click the SELECT button beside the driver to link to your car booking.
+You will be directed to WhatsApp application to deal with your driver. Kindly state your time booking and date for pick-up. Then, feel free to share your experience with us too!"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnGo"
+        android:text="Ask us anything! go"
+        android:textColor="@android:color/white"
+
+android:layout_marginLeft="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#00897B"
+
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+</RelativeLayout>

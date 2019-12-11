@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loginpage.Thanks">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        android:orientation="vertical" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="110dp"
+        app:srcCompat="@mipmap/keteganti"
+        android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/tvYourPrebet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp"
+        android:text="Your Prebet"
+        android:textColor="#5E725E5E"
+        android:textSize="35sp"
+        app:autoSizeTextType="none"
+        app:fontFamily="@font/faster_one" />
+
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+
+        android:text="Thank you for your feedback!"
+        android:textColor="#00897B"
+        android:textSize="25sp" />
+
+</RelativeLayout>

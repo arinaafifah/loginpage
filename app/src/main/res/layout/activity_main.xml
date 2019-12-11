@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.loginpage.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:background="#00897B"
+
+        android:orientation="vertical" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground_volksmerah"
+        android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/tvYourPrebet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="370dp"
+        android:text="Your Prebet"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        app:autoSizeTextType="none"
+        app:fontFamily="@font/faster_one" />
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="410dp"
+        android:text="@string/slogan"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        app:autoSizeTextType="none"
+        app:fontFamily="@font/satisfy" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="50dp"
+
+        android:backgroundTint="#ffff"
+        android:text="Sign In"
+        android:textColor="#050505" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="SignUp"
+            android:textColor="#050505"
+            android:layout_marginStart="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:backgroundTint="#fff"
+            android:shadowColor="@android:color/black"/>
+
+
+
+
+</RelativeLayout>
